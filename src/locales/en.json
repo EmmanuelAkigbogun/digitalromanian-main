@@ -1,0 +1,762 @@
+{
+  "common": {
+    "close": "Close",
+    "change_language": "Change language",
+    "change_language_to": "Change language to {language}",
+    "benefits_label": "Benefits",
+    "services_benefits_label": "Services and benefits",
+    "portfolio_preview": "Portfolio preview",
+    "back_to_top": "Back to top",
+    "share": "Share",
+    "share_whatsapp": "WhatsApp",
+    "share_facebook": "Facebook",
+    "share_linkedin": "LinkedIn",
+    "share_x": "X",
+    "share_copy": "Copy link",
+    "share_copied": "Copied"
+  },
+  "popup": {
+    "newsletter_title": "Clear ideas for websites and digital growth",
+    "newsletter_desc": "Get short guides, case studies, and practical examples for businesses that want a clearer online presence."
+  },
+  "hero": {
+    "heading": {
+      "main": "Clear websites",
+      "highlight": "for businesses people can choose."
+    },
+    "description": "We build websites, automations, and digital systems for businesses that need to be understood quickly, trusted faster, and turned into real client actions.",
+    "benefits": [
+      "Clarity before design",
+      "Responsive websites",
+      "CTAs that guide"
+    ],
+    "cta_discussion": "Clarify your project",
+    "cta_portfolio": "View projects"
+  },
+  "services": {
+    "section_title": "Digital services built around clarity.",
+    "section_subtitle": "Websites, software, branding, automations, and content for businesses that want to be easier to understand, easier to trust, and easier to contact.",
+    "software": {
+      "title": "Software & MVPs",
+      "short": [
+        "Clear minimum product",
+        "Useful flows and integrations",
+        "Scalable without chaos"
+      ],
+      "subtitle": "We build MVPs, dashboards, and web platforms for processes that can no longer be handled efficiently with spreadsheets, messages, and manual work.",
+      "points": [
+        "We turn the idea into a testable MVP with only the necessary functions.",
+        "We integrate payments, CRM, ERP, notifications, dashboards, or other important systems.",
+        "We build clean architecture that is easier to maintain and extend.",
+        "We work in stages, prioritizing real business impact."
+      ]
+    },
+    "website": {
+      "title": "Clear Website & eCommerce",
+      "short": [
+        "Offer understood fast",
+        "Mobile and desktop ready",
+        "Structure built for action"
+      ],
+      "subtitle": "We build websites, landing pages, and WooCommerce stores that explain the offer without confusion and guide visitors toward contact, purchase, or booking.",
+      "points": [
+        "We clarify your services, products, and difference before design.",
+        "We choose the right structure: presentation site, landing page, WooCommerce, or custom.",
+        "We optimize for mobile, speed, SEO basics, and buying experience.",
+        "We use copy, sections, and CTAs that support decisions, not only appearance."
+      ]
+    },
+    "branding": {
+      "title": "UX/UI & Visual Identity",
+      "short": [
+        "Interfaces easy to scan",
+        "Coherent brand",
+        "Figma design system"
+      ],
+      "subtitle": "We give the business a coherent visual direction so people quickly understand who you are, what you offer, and why they can trust you.",
+      "points": [
+        "We define visual direction: logo, colors, fonts, style, tone, and components.",
+        "We design clean modern interfaces that work on mobile and desktop.",
+        "We prepare a Figma design system for faster implementation.",
+        "We clarify the user flow to reduce friction and increase trust."
+      ]
+    },
+    "automation": {
+      "title": "Business Automation & AI",
+      "short": [
+        "Less repetitive work",
+        "CRM, forms, and chatbot",
+        "Data easier to track"
+      ],
+      "subtitle": "We automate repetitive processes and connect your website with the tools you already use, so leads, notifications, and data move more clearly.",
+      "points": [
+        "We automate leads, forms, notifications, tasks, and internal processes.",
+        "We connect the website with CRM, email, Google Sheets, dashboards, or other apps.",
+        "We build useful chatbots for support, lead qualification, or FAQs.",
+        "We reduce manual steps and make data easier to track and report."
+      ]
+    },
+    "social-media": {
+      "title": "Content & Digital Communication",
+      "short": [
+        "Coherent message",
+        "Posts with direction",
+        "Simple reporting"
+      ],
+      "subtitle": "We help you communicate clearly and consistently with messages that support the website, offer, and business position.",
+      "points": [
+        "We create content direction adapted to your business and audience.",
+        "We write copy and prepare visuals aligned with the brand.",
+        "We organize posts so communication stays consistent and easy to follow.",
+        "We track results and adjust messages based on what works."
+      ]
+    }
+  },
+  "roadmap": {
+    "section_label": "Clear process, no chaos",
+    "section_title": "From idea to a website people understand fast.",
+    "section_desc": "The process starts with positioning and continues with structure, content, design, launch, and optimization, so the project is not only attractive but useful.",
+    "steps": [
+      "Identity",
+      "Domain",
+      "Logo",
+      "Visual style",
+      "Technical",
+      "Content",
+      "Launch",
+      "Growth"
+    ],
+    "cta": "See project steps",
+    "modal_steps": [
+      {
+        "title": "Clear identity",
+        "description": "We start by clarifying who you are, what you sell, and how clients should perceive you.",
+        "points": [
+          "We define positioning: professional, premium, accessible, or local.",
+          "We choose a name that is easy to remember and right for your audience.",
+          "We avoid names that are confusing, hard to pronounce, or hard to find online."
+        ]
+      },
+      {
+        "title": "Right domain",
+        "description": "We choose a simple, credible web address that works well in ads, business cards, and social media.",
+        "points": [
+          "We check available options for the chosen name.",
+          "We choose the right extension: .ro, .com, or another relevant option.",
+          "We make sure the domain is short, clean, and easy to type."
+        ]
+      },
+      {
+        "title": "Memorable logo",
+        "description": "We create a visual direction that looks professional and can be used consistently on the site and in promotion.",
+        "points": [
+          "We define the style: minimal, elegant, expressive, or technical.",
+          "We check that the logo stays clear at small sizes.",
+          "We prepare the foundation for a coherent visual identity."
+        ]
+      },
+      {
+        "title": "Visual style",
+        "description": "We choose colors, contrast, and accents that support the message and make the site easy to scan.",
+        "points": [
+          "We define the main colors and important accents.",
+          "We check readability on desktop and mobile.",
+          "We keep the look consistent across all pages."
+        ]
+      },
+      {
+        "title": "Technical base",
+        "description": "We prepare the infrastructure so the site is stable, secure, and ready to launch.",
+        "points": [
+          "We choose hosting that fits the size of the project.",
+          "We connect the domain, SSL, and essential settings.",
+          "We reduce the risk of technical blockers before publishing."
+        ]
+      },
+      {
+        "title": "Pages that convince",
+        "description": "We build the structure and copy so visitors quickly understand what you offer and what to do next.",
+        "points": [
+          "We define the necessary pages: home, services, about, contact, and others.",
+          "We write or refine copy for clarity and conversion.",
+          "We guide users toward action: call, form, order, or booking."
+        ]
+      },
+      {
+        "title": "Controlled launch",
+        "description": "We publish only after essential checks, so problems do not appear directly in front of clients.",
+        "points": [
+          "We check copy, forms, links, and mobile display.",
+          "We publish the site and test critical elements.",
+          "We quickly fix final details that appear after launch."
+        ]
+      },
+      {
+        "title": "Promotion and growth",
+        "description": "After launch, we prepare the next step: traffic, visibility, and optimization.",
+        "points": [
+          "We define the right channels: Google, social media, SEO, or campaigns.",
+          "We define first steps for promotion and measurement.",
+          "We prepare the foundation for testing, adjustments, and better results."
+        ]
+      }
+    ],
+    "modal_hint": "Swipe or use the arrows for the next step.",
+    "modal_prev": "Previous step",
+    "modal_next": "Next step",
+    "modal_close": "Close roadmap",
+    "modal_timeline_label": "Roadmap steps",
+    "modal_step_label": "Step {number}: {title}"
+  },
+  "templates": {
+    "section_title": "Choose from templates",
+    "section_subtitle": "Explore design, check the preview and open the live demo in a new tab.",
+    "view_all": "All templates",
+    "eyebrow": "Template notebook",
+    "item_title": "Template {id}",
+    "preview_live": "Live preview",
+    "preview_aria": "{title} preview",
+    "preview_image_alt": "{title} website preview",
+    "open_demo": "Open demo",
+    "open_new_tab": "Open in new tab",
+    "pagination_prev": "Previous",
+    "pagination_next": "Next",
+    "pagination_label": "Page {page} of {total}",
+    "tabs_label": "Template tabs"
+  },
+  "case_studies": {
+    "section_title": "Case studies",
+    "view_all": "See all",
+    "view_more": "See more case studies",
+    "view_case": "View {title}",
+    "map_statement": "Every project is built around clarity, trust, and a next step that feels easy to take.",
+    "not_found": "Case study not found.",
+    "delivered_title": "What we delivered",
+    "full_preview": "Full Preview",
+    "visit_site": "Visit site"
+  },
+  "blog": {
+    "section_label": "Blog",
+    "section_title": "Useful ideas for clearer digital businesses.",
+    "view_all": "See all",
+    "read_article": "Read article",
+    "not_found": "Article not found."
+  },
+  "consulting": {
+    "hero_title": "Clarify your digital project",
+    "hero_subtitle": "before investing in execution.",
+    "hero_desc": "Choose a suitable slot and send the project details. We discuss website, WordPress, software, branding, automation, or optimization, then define the direction that makes the most sense.",
+    "step1": "01",
+    "step1_title": "{service}",
+    "step1_select": "Select a service",
+    "step1_locked_note": "You arrived here from a specific area of the site. To save time, we kept only the relevant service.",
+    "step1_unlock": "I want to choose another service",
+    "step1_other_label": "Tell us what service you need *",
+    "step1_other_placeholder": "E.g. maintenance, integration, audit, campaign...",
+    "step1_other_confirm": "Confirm service and continue",
+    "step2": "02",
+    "step2_title": "{date}, {time}",
+    "step2_select": "Choose an available slot",
+    "step2_carry_label": "Service",
+    "step2_locked_note": "Fill and confirm the field for Other services to proceed to available slots.",
+    "step2_calendar_label": "Available calendar",
+    "step2_calendar_days": "{count} days available",
+    "step2_selected_day": "Selected date: {label}",
+    "step3": "03",
+    "step3_title": "{slot}",
+    "step3_select": "Choose a slot first",
+    "step3_carry_label": "Booking",
+    "form_name": "Full name *",
+    "form_email": "Email *",
+    "form_phone": "Phone",
+    "form_message": "Short message",
+    "form_submit": "Send booking",
+    "form_sending": "Sending...",
+    "form_error": "Could not send booking. Please try again or write to us by email.",
+    "confirmation_sent": "Booking sent",
+    "confirmation_title": "Thank you. We have received your request.",
+    "duration_30": "30 min",
+    "category_all": "All",
+    "week_days": [
+      "Mo",
+      "Tu",
+      "We",
+      "Th",
+      "Fr",
+      "Sa",
+      "Su"
+    ],
+    "step3_ready": "Finalize request",
+    "service_categories": {
+      "website": "Website",
+      "design": "Design",
+      "software": "Software",
+      "automation": "Automation",
+      "consulting": "Consulting",
+      "other": "Other services"
+    },
+    "service_titles": {
+      "website": "Presentation website consulting",
+      "ecommerce": "Online store consulting",
+      "audit": "Existing website audit",
+      "branding": "Visual identity & branding consulting",
+      "uiux": "UI/UX consulting for web apps",
+      "software": "Custom software development consulting",
+      "automation": "Automation & API integration consulting",
+      "strategy": "Digital strategy consulting",
+      "maintenance": "Maintenance & technical optimization consulting",
+      "offer": "Digital project offer meeting",
+      "other": "Other services"
+    }
+  },
+  "portfolio": {
+    "hero_title_main": "Digital projects built",
+    "hero_title_highlight": "for clarity and action.",
+    "hero_desc": "From online stores and local websites to multilingual projects and optimized campaigns, every project follows the same goal: clear message, trust, and an obvious next step.",
+    "about_title": "We build digital presence that explains the business.",
+    "about_desc": "Websites, visual identity, and digital systems for businesses that want to be understood quickly and taken seriously online.",
+    "about_cta": "See case studies",
+    "about_benefits": [
+      "Real case studies",
+      "Responsive websites",
+      "Mobile optimized"
+    ],
+    "about_featured": {
+      "meta": "eCommerce / Branding / Website",
+      "mobile_preview": "Mobile preview"
+    },
+    "about_stats": {
+      "case_studies": "case studies",
+      "templates": "available templates"
+    },
+    "templates_title": "Templates",
+    "templates_subtitle": "Explore the 50 available templates."
+  },
+  "resources": {
+    "hero_title": "Resources for businesses",
+    "hero_subtitle": "that want more clarity online.",
+    "hero_desc": "Guides, articles, and examples for better decisions about websites, branding, automation, SEO, and digital growth.",
+    "hero_benefits": [
+      "Clear explanations",
+      "No useless jargon",
+      "Applicable in real businesses"
+    ],
+    "hero_cta_explore": "Explore resources",
+    "hero_cta_ebooks": "See ebooks",
+    "ebooks_title": "Free ebooks",
+    "ebooks_desc": "Short practical materials for entrepreneurs who want to understand what is worth building, optimizing, or avoiding.",
+    "ebooks_preview": "Preview",
+    "ebooks_download": "Download",
+    "ebooks_coming_soon": "PDF coming soon",
+    "ebooks_download_main": "Download ebook",
+    "ebooks_form_title": "Get the ebook",
+    "ebooks_form_desc": "Leave your name and email address and the download will start right away.",
+    "ebooks_form_name": "Full name *",
+    "ebooks_form_email": "Email address *",
+    "ebooks_form_consent": "I agree that Digital Romanian may use these details to send me this ebook and related useful resources.",
+    "ebooks_form_submit": "Send & download",
+    "ebooks_form_sending": "Sending...",
+    "ebooks_form_error": "Could not prepare the download. Please try again.",
+    "ebooks_form_success_title": "Your download is ready",
+    "ebooks_form_success_desc": "If it did not start automatically, use the button below.",
+    "ebooks_form_missing_file": "We saved your request. The ebook file needs to be added before the download can start.",
+    "ebooks": [
+      {
+        "title": "Website Design for Businesses",
+        "category": "Website",
+        "description": "A simple guide to what a modern presentation website should include.",
+        "preview": "This ebook explains the structure of a clear site: homepage, services, portfolio, contact, CTAs, and trust elements."
+      },
+      {
+        "title": "SEO for Business Websites",
+        "category": "SEO",
+        "description": "Basic concepts for businesses that want to be easier to find online.",
+        "preview": "An introductory material about structure, keywords, headings, meta descriptions, speed, and useful content."
+      },
+      {
+        "title": "Website Speed & Security",
+        "category": "Performance",
+        "description": "What affects the speed, safety, and stability of a website.",
+        "preview": "A guide for entrepreneurs about hosting, caching, images, updates, SSL, and good maintenance practices."
+      }
+    ],
+    "blog_guides_title": "Guides and practical articles",
+    "blog_categories": [
+      "All",
+      "Website",
+      "SEO",
+      "Design",
+      "Marketing",
+      "Automation"
+    ],
+    "blog_no_results": "No articles found in this category yet.",
+    "blog_sidebar_title": "Categories",
+    "blog_sidebar_clarity_title": "Need clarity?",
+    "blog_sidebar_clarity_desc": "Open the roadmap and see which stage fits your situation.",
+    "newsletter_title": "Get useful ideas\nfor a clearer digital presence.",
+    "newsletter_desc": "Rare but practical: guides, examples, optimization ideas, and resources for websites, design, and online growth.",
+    "newsletter_email": "Email",
+    "newsletter_email_placeholder": "contact@example.com",
+    "newsletter_consent": "I agree to receive informational materials from Digital Romanian.",
+    "newsletter_subscribe": "Subscribe",
+    "newsletter_sending": "Sending...",
+    "newsletter_error": "Could not save subscription. Please try again.",
+    "newsletter_sent": "Thank you for subscribing!",
+    "newsletter_sent_desc": "When we prepare the next useful resource, you will receive it directly by email."
+  },
+  "service_deep_dive": {
+    "section_title": "Services explained without jargon",
+    "details_link": "See details",
+    "includes_label": "What's included",
+    "entry_points_label": "Entry points",
+    "offer_cta": "Request an offer",
+    "items": [
+      {
+        "id": "website",
+        "title": "Website & eCommerce",
+        "short": "Websites and online stores built for clarity, trust, and action.",
+        "deliverables": [
+          "Presentation website",
+          "Landing page",
+          "WooCommerce store",
+          "Forms & tracking"
+        ],
+        "entry": [
+          "Website consulting",
+          "Website audit",
+          "eCommerce consulting"
+        ]
+      },
+      {
+        "id": "branding",
+        "title": "UX/UI & Branding",
+        "short": "Visual identity and interfaces that make the offer easier to understand.",
+        "deliverables": [
+          "Visual direction",
+          "UI design",
+          "Design system"
+        ],
+        "entry": [
+          "Branding consulting",
+          "UI/UX consulting"
+        ]
+      },
+      {
+        "id": "automation",
+        "title": "Automation & AI",
+        "short": "Flows that reduce manual work and make leads easier to track.",
+        "deliverables": [
+          "Automation",
+          "API integration",
+          "Chatbot / AI"
+        ],
+        "entry": [
+          "Automation consulting"
+        ]
+      },
+      {
+        "id": "software",
+        "title": "Software / MVP",
+        "short": "Digital products built in stages for validation and real use.",
+        "deliverables": [
+          "MVP",
+          "Web platform",
+          "System integration"
+        ],
+        "entry": [
+          "Software consulting",
+          "Project offer meeting"
+        ]
+      }
+    ]
+  },
+  "cookie": {
+    "settings_label": "Cookie settings",
+    "title": "Cookies",
+    "necessary_desc": "We use strictly necessary cookies for the website to function. These include functional cookies for security, display preferences, and saving your privacy options.",
+    "analytics_desc": "With your consent, we may also use technologies such as Google Analytics, Google Tag Manager, Google Ads, and Meta Pixel for analytics, performance measurement, and marketing.",
+    "privacy_link": "See privacy policy",
+    "reject": "Reject",
+    "accept": "Accept all"
+  },
+  "contact": {
+    "hero_title": "Tell us what you need",
+    "hero_subtitle": "to clarify digitally.",
+    "hero_desc": "Need a website, redesign, online store, automation, branding, or software? Send the details and we will define the next step.",
+    "call_us": "Call us",
+    "email_us": "Send us an email",
+    "form_title": "Contact us",
+    "form_name": "Full name *",
+    "form_email": "Email address *",
+    "form_service": "Service *",
+    "form_service_placeholder": "Select service",
+    "form_services": [
+      "Presentation website",
+      "Online store",
+      "UX/UI & Branding",
+      "Automation & AI",
+      "Software / MVP",
+      "Social Media Marketing",
+      "Other"
+    ],
+    "form_phone": "Phone number (optional)",
+    "form_message": "How can we help? *",
+    "form_submit": "Send message",
+    "form_sending": "Sending...",
+    "form_error": "The message could not be sent. Please try again.",
+    "form_sent": "Thank you! Your message has been sent.",
+    "form_sent_desc": "We received your request. If it is urgent, you can write to us directly by email.",
+    "faq_title": "Find answers",
+    "faq_subtitle": "to your questions here.",
+    "faqs": [
+      {
+        "q": "What services does Digital Romanian offer?",
+        "a": "We build websites, online stores, UX/UI, branding, automation, custom software, digital consulting, and technical support, with a focus on clarity and measurable actions."
+      },
+      {
+        "q": "How can I start working with Digital Romanian?",
+        "a": "You fill in the form or book a call. We start by clarifying the objective, audience, budget, timeline, and suitable solution."
+      },
+      {
+        "q": "Do you offer ongoing support after the project is finished?",
+        "a": "Yes. We can provide post-launch support: updates, security, performance, content adjustments, and technical optimization."
+      },
+      {
+        "q": "What is the cost of your services?",
+        "a": "Costs depend on complexity, number of pages, functions, integrations, content, and support. After clarification we can prepare a concrete offer."
+      },
+      {
+        "q": "Can you help with rebranding or updating my current website?",
+        "a": "Yes. We can analyze your current site, propose a new visual direction, and rebuild the structure for a clearer, more modern experience."
+      },
+      {
+        "q": "How does Digital Romanian ensure quality?",
+        "a": "We work in clear stages, with feedback, technical checks, responsive testing, and adjustments before launch."
+      },
+      {
+        "q": "How can I stay up to date with my project's progress?",
+        "a": "We set clear communication points and show you progress at each stage, so you always know where your project stands."
+      },
+      {
+        "q": "How long does a project usually take?",
+        "a": "A simple site can take a few weeks. An online store, MVP, or custom project may take longer, depending on complexity."
+      },
+      {
+        "q": "Do you publish useful articles about digital marketing and SEO?",
+        "a": "Yes. We regularly publish practical resources for entrepreneurs and local businesses.",
+        "linkLabel": "Read the digital marketing guide",
+        "linkHref": "/resurse/Introducere-in-Marketingul-Digital-Modern"
+      }
+    ]
+  },
+  "services_page": {
+    "hero_title": "Choose the service",
+    "hero_subtitle": "that clarifies your next step.",
+    "hero_desc": "Whether you need a website, branding, automation, or software, we start with the real problem and choose the right solution.",
+    "anchors": [
+      {
+        "href": "#software",
+        "label": "Software"
+      },
+      {
+        "href": "#website",
+        "label": "Website & eCommerce"
+      },
+      {
+        "href": "#branding",
+        "label": "UX/UI & Branding"
+      },
+      {
+        "href": "#automation",
+        "label": "Automation & AI"
+      }
+    ]
+  },
+  "plans": {
+    "section_title": "Packages for the next digital step",
+    "cta": "Request an offer",
+    "items": [
+      {
+        "serviceId": "website",
+        "title": "Starter Website",
+        "desc": "For businesses that need a clear, credible, and fast-to-launch online presence.",
+        "features": [
+          "Optimized landing page",
+          "Up to 5 sections",
+          "1-2 contact forms",
+          "Analytics setup",
+          "2 revision rounds"
+        ],
+        "highlight": false
+      },
+      {
+        "serviceId": "ecommerce",
+        "title": "eCommerce Launch",
+        "desc": "For stores that want to sell online with clear structure, working checkout, and trust.",
+        "features": [
+          "WooCommerce configured",
+          "10 initial products included",
+          "Online payments integrated",
+          "Shipping settings",
+          "Transactional emails"
+        ],
+        "highlight": true
+      },
+      {
+        "serviceId": "software",
+        "title": "MVP Sprint",
+        "desc": "For ideas that need quick validation through a clear and usable minimum product.",
+        "features": [
+          "Clarification workshop",
+          "Priority backlog",
+          "Interactive prototype",
+          "Functional MVP"
+        ],
+        "highlight": false
+      }
+    ]
+  },
+  "process": {
+    "section_title": "How we work without chaos",
+    "steps": [
+      {
+        "title": "Clarify",
+        "text": "We understand the offer, audience, objective, and what needs to be different."
+      },
+      {
+        "title": "Structure",
+        "text": "We build the flow, pages, and visual direction around the user decision."
+      },
+      {
+        "title": "Execute",
+        "text": "We implement in stages, checking content, mobile, forms, and functions."
+      },
+      {
+        "title": "Launch and optimize",
+        "text": "We publish in a controlled way and prepare the next steps for growth."
+      }
+    ]
+  },
+  "footer": {
+    "brand_desc": "Clear websites, digital systems, and automations for businesses that want to be understood quickly and chosen more easily.",
+    "copyright": "©{year} Digital Romanian. All rights reserved.",
+    "useful_links": "Useful links",
+    "privacy_policy": "Privacy Policy",
+    "sitemap": "Sitemap",
+    "company": "Company",
+    "contact_desc": "Have a project in mind? Write to us and we will discuss what is worth building.",
+    "anpc_alt": "ANPC SAL",
+    "sol_alt": "Online dispute resolution"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: April 29, 2026",
+    "sections": [
+      {
+        "title": "1. Who we are",
+        "paragraphs": [
+          "The digitalromanian.com website is operated by Digital Romanian SRL. For questions about personal data processing, you can contact us at contact@digitalromanian.com."
+        ]
+      },
+      {
+        "title": "2. What data we collect",
+        "paragraphs": [
+          "We may collect data such as name, email address, phone number, the message sent through a form, the service selected for booking, and technical information about website usage."
+        ]
+      },
+      {
+        "title": "3. How we use data",
+        "paragraphs": [
+          "We use data to respond to requests, manage bookings, send informational materials when you have explicitly consented, and improve the website."
+        ]
+      },
+      {
+        "title": "4. Legal basis",
+        "paragraphs": [
+          "Processing may be based on consent, pre-contractual steps, legitimate interest, or legal obligations, depending on the situation."
+        ]
+      },
+      {
+        "title": "5. Cookies",
+        "paragraphs": [
+          "By using the website, you accept strictly necessary cookies required for it to function. These may include cookies for security, basic preferences, forms, session handling, and saving your cookie choice.",
+          "Analytics, measurement, advertising, or remarketing cookies and technologies are used only if you give consent through the cookie banner, where required."
+        ]
+      },
+      {
+        "title": "6. Analytics and marketing technologies",
+        "paragraphs": [
+          "Depending on the website configuration, we may use the following tools:"
+        ],
+        "items": [
+          {
+            "label": "Google Analytics",
+            "text": " - for statistics about visits, accessed pages, and website usage."
+          },
+          {
+            "label": "Google Tag Manager / Google Tag",
+            "text": " - for managing analytics and marketing scripts."
+          },
+          {
+            "label": "Google Ads",
+            "text": " - for measuring conversions and advertising campaign efficiency."
+          },
+          {
+            "label": "Meta Pixel",
+            "text": " - for measuring interactions, remarketing, and optimizing Meta campaigns."
+          }
+        ]
+      },
+      {
+        "title": "7. How long we keep data",
+        "paragraphs": [
+          "We keep data only as long as necessary for the purposes for which it was collected or as required by applicable legal obligations."
+        ]
+      },
+      {
+        "title": "8. Who we may share data with",
+        "paragraphs": [
+          "Data may be shared with providers that help us with hosting, email, analytics, technical maintenance, or similar services, only to the extent necessary."
+        ]
+      },
+      {
+        "title": "9. Your rights",
+        "paragraphs": [
+          "You have the right to access, rectify, erase, restrict, object to processing, and portability, as well as the right to withdraw consent when processing is based on consent."
+        ]
+      },
+      {
+        "title": "10. Contact",
+        "paragraphs": [
+          "For requests regarding personal data, you can write to us at contact@digitalromanian.com."
+        ]
+      }
+    ]
+  },
+  "not_found": {
+    "kicker": "Error 404",
+    "title": "Page not",
+    "title_accent": "found.",
+    "desc": "The link may be wrong or the page may have moved. You can quickly return to the important paths on the site.",
+    "back": "Go back",
+    "home": "Home",
+    "portfolio": "View portfolio",
+    "signal": "Finding the right path",
+    "checks": [
+      "Check the link",
+      "Return home",
+      "Explore the portfolio"
+    ]
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "resources": "Resources",
+    "contact": "Contact",
+    "book": "Book a call",
+    "change_theme": "Change theme",
+    "main_navigation": "Main navigation",
+    "mobile_navigation": "Mobile navigation"
+  }
+}

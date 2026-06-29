@@ -1,0 +1,210 @@
+.dr-plans {
+  padding: 72px 0;
+  text-align: center;
+  color: var(--page-text);
+}
+
+.dr-plans h2 {
+  margin: 0 auto 34px;
+  max-width: 14ch;
+  font-size: clamp(30px, 4.5vw, 44px);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+}
+
+.dr-plans-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dr-plan-card {
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  border-radius: 24px;
+  min-height: 318px;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(circle at 90% 0%, rgba(59,130,246,0.10), transparent 32%),
+    linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.035));
+  border: 1px solid var(--nav-glass-border);
+  text-align: left;
+  box-shadow: var(--nav-shadow);
+  backdrop-filter: blur(14px) saturate(170%);
+  -webkit-backdrop-filter: blur(14px) saturate(170%);
+  transition: transform 0.24s ease, border-color 0.24s ease, background 0.24s ease;
+}
+
+.dr-plan-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(59,130,246,0.38);
+}
+
+.dr-plan-card.is-highlight {
+  background:
+    radial-gradient(circle at 82% 8%, rgba(59,130,246,0.34), transparent 34%),
+    linear-gradient(145deg, rgba(37,99,235,0.24), rgba(255,255,255,0.045));
+  color: #fff;
+  transform: none;
+  border-color: rgba(59,130,246,0.48);
+}
+
+.dr-plan-card.is-highlight:hover {
+  transform: translateY(-4px);
+}
+
+.dr-plan-card h3 {
+  margin: 0 0 12px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: var(--page-text);
+}
+
+.dr-plan-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--nav-text);
+}
+
+.dr-plan-card.is-highlight .dr-plan-desc {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.dr-plan-btn {
+  margin: auto 0 0;
+  width: 100%;
+  min-height: 44px;
+  border-radius: 999px;
+  border: 1px solid var(--nav-glass-border);
+  background: rgba(255,255,255,0.045);
+  color: var(--page-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.dr-plan-btn:hover {
+  transform: translateY(-1px);
+  background: rgba(59,130,246,0.14);
+  border-color: rgba(59,130,246,0.4);
+}
+
+.dr-plan-card.is-highlight .dr-plan-btn {
+  background: var(--cta-bg);
+  color: #fff;
+  border: none;
+  box-shadow: var(--cta-shadow);
+}
+
+.dr-plan-card.is-highlight .dr-plan-btn:hover {
+  background: #1d4ed8;
+}
+
+.dr-plan-features {
+  margin: 18px 0 20px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.dr-plan-features li {
+  position: relative;
+  padding-left: 18px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--nav-text);
+}
+
+.dr-plan-features li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.58em;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: #2563eb;
+}
+
+.dr-plan-card.is-highlight .dr-plan-features li {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.dr-plan-card.is-highlight .dr-plan-features li::before {
+  background: #2563eb;
+}
+
+@media (max-width: 900px) {
+  .dr-plans {
+    padding: 56px 0;
+  }
+
+  .dr-plans h2 {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .dr-plans-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 16px;
+    gap: 14px;
+  }
+
+  .dr-plan-card {
+    padding: 20px;
+    border-radius: 22px;
+  }
+}
+
+/* Light theme: force plans text to dark */
+[data-theme="light"] .dr-plans,
+[data-theme="light"] .dr-plans h2,
+[data-theme="light"] .dr-plan-card h3,
+[data-theme="light"] .dr-plan-desc,
+[data-theme="light"] .dr-plan-features li,
+[data-theme="light"] .dr-plan-btn {
+  color: #0f172a;
+}
+
+[data-theme="light"] .dr-plan-card.is-highlight,
+[data-theme="light"] .dr-plan-card.is-highlight h3,
+[data-theme="light"] .dr-plan-card.is-highlight .dr-plan-desc,
+[data-theme="light"] .dr-plan-card.is-highlight .dr-plan-features li {
+  color: #0f172a;
+}
+
+[data-theme="light"] .dr-plan-card.is-highlight .dr-plan-btn {
+  color: #ffffff;
+}
+
+[data-theme="light"] .dr-plan-card {
+  background:
+    radial-gradient(circle at 90% 0%, rgba(59,130,246,0.12), transparent 32%),
+    linear-gradient(145deg, rgba(255,255,255,0.72), rgba(255,255,255,0.28));
+}
+
+[data-theme="light"] .dr-plan-card.is-highlight {
+  background:
+    radial-gradient(circle at 82% 8%, rgba(59,130,246,0.24), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,0.78), rgba(59,130,246,0.16));
+}
+
+[data-theme="light"] .dr-plan-btn {
+  border-color: rgba(15,23,42,0.18);
+  background: rgba(255,255,255,0.28);
+}

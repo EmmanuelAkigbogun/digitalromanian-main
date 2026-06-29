@@ -1,0 +1,152 @@
+{
+  "project": "Digital Romanian Blog Image Prompts",
+  "format": "png",
+  "default_style": "abstract, digital-themed, modern, clean, slightly futuristic, layered geometric shapes, glowing lines, subtle 3D depth, glassmorphism, soft gradients, minimal interface-inspired elements, no country-specific visuals, no flags, no landmarks, no readable text",
+  "default_dimensions": {
+    "width_px": 1600,
+    "height_px": 900,
+    "aspect_ratio": "16:9"
+  },
+  "images": [
+    {
+      "number": 1,
+      "filename": "1.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration representing why a business needs a website even if it already has social media. Show a central glowing website window as the stable hub, with floating social media-like communication bubbles orbiting around it but not replacing it. Modern digital composition, layered UI panels, soft blue-purple gradients, subtle network lines, clean futuristic style, no logos, no readable text, no country-specific elements."
+    },
+    {
+      "number": 2,
+      "filename": "2.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image about website pricing and cost structure. Show layered geometric blocks, floating pricing tiers, modular components, and abstract digital building pieces coming together into a polished website frame. Visual theme should suggest budgeting, planning, and scalable digital value. Modern, sleek, minimalist, blue-cyan-violet gradients, no currency symbols dominating the image, no readable text."
+    },
+    {
+      "number": 3,
+      "filename": "3.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract split-composition digital artwork symbolizing WordPress vs custom website development. On one side, modular interconnected blocks and templates; on the other side, precise wireframe structures and custom code-like geometry. Balanced composition with a central divide, subtle glowing contrast between flexibility and customization. Futuristic UI-inspired style, clean, no logos, no readable text."
+    },
+    {
+      "number": 4,
+      "filename": "4.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration for websites for local service businesses. Show connected service nodes, map-like grid patterns without real geography, floating contact icons, appointment flow elements, and a polished service website panel in the center. Emphasize accessibility, trust, and lead generation through abstract digital symbols. Modern soft gradients, sleek, clean, no country cues."
+    },
+    {
+      "number": 5,
+      "filename": "5.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork for restaurants and food businesses needing a website. Show elegant flowing shapes inspired by menus, reservations, ordering flows, and product display cards, all in a digital interface style. Add warm gradient accents mixed with modern tech blues for a food-meets-digital feel. Refined and minimal, no actual cuisine tied to a country, no readable text."
+    },
+    {
+      "number": 6,
+      "filename": "6.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image for construction and cleaning business websites. Show structured grid forms, layered blocks, polished surfaces, transformation effects, and before-and-after inspired contrast through abstract shapes. Blend industrial geometry with clean luminous finishing effects. Modern digital composition, sleek, high clarity, no specific buildings, no country-specific visuals."
+    },
+    {
+      "number": 7,
+      "filename": "7.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork for NGO websites. Show interconnected circles, collaboration nodes, transparent layered panels, donation and impact-inspired icons in abstract form, and a central digital hub symbolizing mission and trust. The image should feel human-centered but non-literal, optimistic, and organized. Clean modern gradients, soft light, no country references, no readable text."
+    },
+    {
+      "number": 8,
+      "filename": "8.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration for online shops and e-commerce. Show floating product cards, cart and checkout-inspired shapes, connected transaction lines, and a central commerce interface with smooth motion and conversion flow. Stylish, clean, high-tech, slightly futuristic, with vibrant yet elegant gradients, no brand logos, no readable text."
+    },
+    {
+      "number": 9,
+      "filename": "9.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork for SEO basics for small businesses. Show a search-inspired interface, rising graph lines, connected keyword-like nodes, ranking layers, and a website panel emerging upward through a structured digital grid. Emphasize visibility, discoverability, and growth. Clean, editorial, modern, glowing accents, no readable text."
+    },
+    {
+      "number": 10,
+      "filename": "10.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration for landing pages that convert. Show a central focused page panel with strong directional flow, attention paths, highlighted CTA-like glowing elements, and a clean conversion funnel visual made of geometric shapes. The image should feel focused, streamlined, and conversion-oriented. Modern digital aesthetic, no readable text."
+    },
+    {
+      "number": 11,
+      "filename": "11.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork representing website speed and trust. Show a streamlined glowing interface moving smoothly through luminous trails, contrasted subtly with fragmented lagging shapes in the background. Visual message should suggest fast performance, smooth experience, and reliability. Crisp modern gradients, polished digital style, no text."
+    },
+    {
+      "number": 12,
+      "filename": "12.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image for branding before website development. Show floating color swatches, geometric identity systems, logo-space placeholders, typographic blocks without readable text, and a website wireframe forming from brand elements. Emphasize coherence, structure, and visual identity. Elegant, clean, modern, abstract, no country references."
+    },
+    {
+      "number": 13,
+      "filename": "13.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration about automations for small businesses. Show interconnected workflow blocks, arrows, trigger-action chains, CRM-like cards, email-flow symbols, and smooth system-to-system movement. Visual tone should suggest efficiency and simplification. Futuristic but clean, with glowing connectors, no readable text."
+    },
+    {
+      "number": 14,
+      "filename": "14.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image for contact forms, bookings, and lead capture. Show a clean funnel-like structure with form fields abstracted into glowing panels, booking-calendar inspired geometry, and contact data flowing into a central organized digital system. Emphasize clarity, conversion, and user flow. Modern UI-inspired style, no readable text."
+    },
+    {
+      "number": 15,
+      "filename": "15.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork for Google indexing and website visibility. Show a central website panel emerging from a structured search-like grid, with hidden and visible layers, scanning beams, sitemap-inspired pathways, and discoverability symbols. The composition should suggest indexing, visibility, and technical clarity. Sleek, abstract, no logos, no readable text."
+    },
+    {
+      "number": 16,
+      "filename": "16.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration for website maintenance. Show a stable website interface surrounded by maintenance-like system rings, update cycles, backup-inspired layered copies, security shield forms, and performance check indicators in an abstract style. The image should suggest ongoing care and reliability. Modern clean gradients, no readable text."
+    },
+    {
+      "number": 17,
+      "filename": "17.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image for portfolio pages and case studies. Show a gallery of floating project frames, layered cards, progress flow elements, and result-oriented visual blocks connected into a polished narrative structure. Emphasize proof, delivery, and professional presentation. Minimal, modern, digital editorial style, no readable text."
+    },
+    {
+      "number": 18,
+      "filename": "18.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital illustration for multilingual websites. Show a central website interface branching into three parallel language streams represented by clean symbolic panels, layered content variants, and connected international communication flows. Keep it abstract and neutral, with no flags or country-specific references. Elegant, high-tech, no readable text."
+    },
+    {
+      "number": 19,
+      "filename": "19.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital image for preparing before requesting a website quote. Show planning boards, wireframes, structured briefing blocks, budget and scope-inspired geometric modules, and a central concept panel assembling into a clear website plan. Emphasize preparation, clarity, and decision-making. Clean digital composition, no readable text."
+    },
+    {
+      "number": 20,
+      "filename": "20.png",
+      "width_px": 1600,
+      "height_px": 900,
+      "prompt": "Abstract digital artwork for a digital growth plan for a small business. Show a connected ecosystem of website, SEO, content, social, lead capture, CRM, and automation nodes arranged as a strategic roadmap. Use layered glowing pathways, rising growth arcs, and a clear central digital hub. Modern, polished, slightly futuristic, no readable text, no country-specific elements."
+    }
+  ]
+}

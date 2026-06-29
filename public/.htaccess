@@ -1,0 +1,17 @@
+Options -MultiViews
+ErrorDocument 404 /index.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Keep real files, folders, and backend API routes handled by the server.
+  RewriteRule ^index\.html$ - [L]
+  RewriteRule ^api(/.*)?$ - [L]
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # React Router fallback for direct visits such as /servicii or /contact.
+  RewriteRule . /index.html [L]
+</IfModule>

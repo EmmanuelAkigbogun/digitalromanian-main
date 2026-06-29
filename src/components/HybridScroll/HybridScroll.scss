@@ -1,0 +1,83 @@
+/* Hybrid Zone wrapper */
+.hybrid-zone {
+  position: relative;
+  height: 300vh;
+  /* Keeps the exact same scroll duration */
+}
+
+/* Centered Sticky Section: Covers most of the page */
+.sticky-center-panel {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  /* Centers vertically by leaving 5vh top/bottom margin */
+  height: fit-content;
+  /* Covers 90% of viewport height */
+  width: 90%;
+  /* Covers 90% of viewport width */
+  margin: 0 auto;
+  /* Centers horizontally */
+
+  box-sizing: border-box;
+}
+
+/* Invisible scrolling tracks running in the background */
+.invisible-scroll-track {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  pointer-events: none;
+  /* Allows clicks to pass through to the sticky panel */
+  opacity: 0;
+  /* Keeps them physically there for scroll math, but completely hidden */
+}
+
+/* Assisting sections that provide the scroll height */
+.scroll-step {
+  height: 100vh;
+}
+
+/* HybridScroll.scss */
+
+.hybrid-zone::after {
+  content: "";
+  display: block;
+  height: 100vh;
+  /* extra viewport space at the bottom */
+}
+
+.bg-intro {
+  background-color: #e0f2fe;
+}
+
+@media (max-width: 900px) {
+  .sticky-center-panel {
+    top: 56px;
+  }
+}
+
+/* Mobile fallback to keep things clean on smaller devices */
+@media (max-width: 768px) {
+  .hybrid-zone {
+    height: auto;
+  }
+
+  .hybrid-zone::after {
+    height: auto;
+    /* extra viewport space at the bottom */
+  }
+
+  .sticky-center-panel {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+  .invisible-scroll-track {
+    display: none;
+    /* Disables the extra hidden height on mobile */
+  }
+}

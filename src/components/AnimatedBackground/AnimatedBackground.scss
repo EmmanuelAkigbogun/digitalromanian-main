@@ -1,0 +1,58 @@
+.dr-bg-wrapper {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.82;
+  mix-blend-mode: normal;
+}
+
+.dr-bg-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 28%, rgba(248, 251, 255, 0.18), transparent 42%),
+    linear-gradient(180deg, rgba(248, 251, 255, 0.12), rgba(248, 251, 255, 0.02));
+}
+
+.dr-bg-parallax {
+  position: absolute;
+  inset: -18%;
+  transform: scale(1.08);
+}
+
+.dr-bg-parallax canvas {
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 1;
+}
+
+[data-theme="light"] .dr-bg-wrapper {
+  opacity: 0.46;
+}
+
+[data-theme="dark"] .dr-bg-wrapper {
+  opacity: 0.68;
+}
+
+[data-theme="dark"] .dr-bg-wrapper::after {
+  background:
+    radial-gradient(circle at 28% 18%, rgba(2, 6, 23, 0.58), transparent 42%),
+    radial-gradient(circle at 78% 22%, rgba(2, 6, 23, 0.42), transparent 34%),
+    linear-gradient(180deg, rgba(2, 6, 23, 0.62), rgba(2, 6, 23, 0.38));
+}
+
+@media (max-width: 900px) {
+  .dr-bg-wrapper {
+    opacity: 0.38;
+  }
+
+  [data-theme="dark"] .dr-bg-wrapper {
+    opacity: 0.54;
+  }
+}

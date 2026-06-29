@@ -1,0 +1,222 @@
+.dr-contact-form-card {
+  position: relative;
+  padding: 26px;
+  border-radius: 28px;
+  height: 100%;
+
+  background:
+    radial-gradient(circle at 12% 10%, rgba(59,130,246,0.16), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.045));
+
+  border: 1px solid var(--nav-glass-border);
+  box-shadow: var(--nav-shadow);
+}
+
+.dr-contact-form-card h2 {
+  margin: 0 0 20px;
+  font-size: 28px;
+  letter-spacing: -0.04em;
+}
+
+.dr-contact-form-card form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.dr-contact-form-card label {
+  display: grid;
+  gap: 8px;
+
+  color: var(--nav-text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.dr-contact-form-card input,
+.dr-contact-form-card select,
+.dr-contact-form-card textarea {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--nav-glass-border);
+  background: rgba(255,255,255,0.055);
+  color: var(--page-text);
+  outline: none;
+
+  font: inherit;
+}
+
+.dr-contact-form-card input,
+.dr-contact-form-card select {
+  min-height: 48px;
+  padding: 0 14px;
+}
+
+.dr-contact-form-card textarea {
+  resize: vertical;
+  padding: 14px;
+}
+
+.dr-contact-form-card input:focus,
+.dr-contact-form-card select:focus,
+.dr-contact-form-card textarea:focus {
+  border-color: rgba(59,130,246,0.55);
+}
+
+.dr-contact-message {
+  grid-column: 1 / -1;
+}
+
+.dr-contact-form-card button {
+  grid-column: 1 / -1;
+  min-height: 52px;
+  border: 0;
+  border-radius: 999px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  background: var(--cta-bg);
+  color: #fff;
+  box-shadow: var(--cta-shadow);
+
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.dr-contact-thanks {
+  position: relative;
+  overflow: hidden;
+  min-height: 380px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.dr-contact-thanks h2 {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  max-width: 12ch;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.dr-contact-thanks p {
+  position: relative;
+  z-index: 2;
+  max-width: 42ch;
+  color: var(--nav-text);
+  line-height: 1.55;
+}
+
+.dr-contact-plane-stage {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.dr-contact-plane {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  z-index: 1;
+
+  width: 64px;
+  height: 64px;
+  border-radius: 999px;
+
+  display: grid;
+  place-items: center;
+
+  color: #fff;
+  background: rgba(59,130,246,0.96);
+  box-shadow:
+    0 18px 50px rgba(59,130,246,0.45),
+    inset 0 1px 0 rgba(255,255,255,0.35);
+
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.45) rotate(-18deg);
+}
+
+.dr-contact-plane-trail {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  width: 170px;
+  height: 3px;
+  border-radius: 999px;
+
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.9), transparent);
+  opacity: 0;
+  filter: blur(1px) saturate(170%);
+  transform: translate(-50%, -50%) rotate(-12deg);
+}
+
+.dr-contact-form-card.is-sent .dr-contact-plane {
+  animation: drContactPlaneFly 1.65s cubic-bezier(.2,.8,.2,1) forwards;
+}
+
+.dr-contact-form-card.is-sent .dr-contact-plane-trail {
+  animation: drContactPlaneTrail 1.15s ease forwards;
+}
+
+@keyframes drContactPlaneFly {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.45) rotate(-18deg);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+  }
+
+  42% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.08) rotate(360deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(360%, -175%) scale(0.72) rotate(735deg);
+  }
+}
+
+@keyframes drContactPlaneTrail {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scaleX(0.1) rotate(-12deg);
+  }
+
+  35% {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scaleX(1) rotate(-12deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(96%, -88%) scaleX(1.4) rotate(-12deg);
+  }
+}
+
+.dr-form-error {
+  margin: 10px 0 0;
+  color: #ef4444;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+@media (max-width: 900px) {
+  .dr-contact-form-card {
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .dr-contact-form-card form {
+    grid-template-columns: 1fr;
+  }
+}

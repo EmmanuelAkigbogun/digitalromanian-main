@@ -1,0 +1,93 @@
+.dr-logos {
+  margin-top: 22px;
+  padding-inline: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+}
+
+.dr-logos::before,
+.dr-logos::after {
+  display: none;
+}
+
+.dr-logos-track {
+  display: flex;
+  width: max-content;
+  animation: dr-scroll 48s linear infinite;
+}
+
+.dr-logos:hover .dr-logos-track {
+  animation-play-state: paused;
+}
+
+.dr-logo-item {
+  flex: 0 0 calc(100vw / 7);
+  height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: transform 0.25s ease;
+}
+
+.dr-logo-item img {
+  max-height: 85px;
+  max-width: 180px;
+  width: auto;
+  object-fit: contain;
+  filter: none;
+
+  opacity: 0.95;
+
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+
+.dr-logo-item img[src*="2-light"] {
+  transform: scale(1.5);
+}
+
+.dr-logo-item:hover img {
+  transform: scale(1.15);
+  opacity: 1;
+}
+
+.dr-logo-item:hover img[src*="2-light"] {
+  transform: scale(1.6);
+}
+
+@keyframes dr-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 900px) {
+  .dr-logos {
+    margin-top: 4px;
+    width: 100vw;
+    margin-left: calc(var(--mobile-rail-width) * -1);
+    padding-inline: 0;
+    padding-bottom: 8px;
+  }
+
+  .dr-logo-item {
+    flex-basis: calc(100vw / 3.25);
+    height: 88px;
+  }
+
+  .dr-logo-item img {
+    max-height: 66px;
+    max-width: 132px;
+
+    opacity: 1;
+  }
+}

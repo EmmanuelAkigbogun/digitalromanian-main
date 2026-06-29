@@ -1,0 +1,415 @@
+.dr-deep-services {
+  padding: 80px 0;
+  color: var(--page-text);
+}
+
+.dr-deep-header {
+  max-width: 1100px;
+  margin: 0 auto 34px;
+  padding: 0 24px;
+}
+
+.dr-deep-header > span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--nav-text);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.dr-deep-header h2 {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.dr-deep-header p {
+  max-width: 620px;
+  margin: 18px 0 0;
+  color: var(--nav-text);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.dr-deep-list {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Cards grid ── */
+.dr-deep-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.dr-deep-card {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 26px;
+  border-radius: 22px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow:
+    0 4px 32px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  cursor: pointer;
+  color: var(--page-text);
+  font: inherit;
+  text-align: left;
+  isolation: isolate;
+  transition:
+    transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.dr-deep-card:focus-visible {
+  outline: 2px solid rgba(59,130,246,0.72);
+  outline-offset: 3px;
+}
+
+/* Thick magnifying glass layer — captures + distorts the background */
+.dr-deep-card::before {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: inherit;
+  backdrop-filter: blur(52px) saturate(170%) brightness(1.1);
+  -webkit-backdrop-filter: blur(52px) saturate(170%) brightness(1.1);
+  background: rgba(255, 255, 255, 0.06);
+  filter: url(#dr-glass-distort);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Specular edge highlight — top-left refraction shine */
+.dr-deep-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background:
+    linear-gradient(150deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.05) 22%, transparent 46%),
+    radial-gradient(ellipse at 50% -10%, rgba(255, 255, 255, 0.13) 0%, transparent 65%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dr-deep-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+.dr-deep-card:hover {
+  transform: scale(1.025) translateY(-3px);
+  box-shadow:
+    0 20px 56px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.26);
+}
+
+.dr-deep-card h3 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: -0.03em;
+}
+
+.dr-deep-card p {
+  margin: 12px 0 18px;
+  color: var(--nav-text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.dr-deep-link {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--page-text);
+  opacity: 0.7;
+}
+
+.dr-deep-card:hover .dr-deep-link {
+  opacity: 1;
+}
+
+/* ── Modal overlay ── */
+.dr-deep-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  padding: 16px;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 50% 22%, rgba(59,130,246,0.18), transparent 34%),
+    rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(18px) saturate(170%);
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+}
+
+.dr-deep-modal-box {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  width: min(760px, 94%);
+  max-height: calc(100vh - 32px);
+  padding: 34px;
+  border-radius: 30px;
+
+  background:
+    radial-gradient(circle at 100% 0%, rgba(96,165,250,0.22), transparent 34%),
+    linear-gradient(145deg, rgba(255,255,255,0.20), rgba(255,255,255,0.075));
+  border: 1px solid rgba(255,255,255,0.24);
+
+  backdrop-filter: blur(34px) saturate(170%);
+  -webkit-backdrop-filter: blur(34px) saturate(170%);
+
+  box-shadow:
+    0 32px 90px rgba(0,0,0,0.34),
+    inset 0 1px 0 rgba(255,255,255,0.32),
+    inset 0 -1px 0 rgba(255,255,255,0.08);
+
+  color: #f8fafc;
+}
+
+.dr-deep-modal-box::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.24) 0%,
+      rgba(255,255,255,0.04) 32%,
+      transparent 58%
+    ),
+    radial-gradient(
+      circle at top left,
+      rgba(255,255,255,0.18),
+      transparent 34%
+    );
+
+  pointer-events: none;
+}
+
+.dr-deep-modal-box h3 {
+  margin: 0 56px 24px 0;
+  font-size: clamp(28px, 4vw, 42px);
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+}
+
+.dr-deep-modal-content h4 {
+  margin: 30px auto 12px;
+  text-align: center;
+  color: rgba(255,255,255,0.72);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.dr-deep-modal-content ul {
+  display: block;
+  max-width: 360px;
+  margin: 0 auto 28px;
+  padding-left: 20px;
+  list-style: disc;
+  text-align: left;
+}
+
+.dr-deep-modal-content li {
+  padding: 0;
+  margin: 9px 0;
+  border: 0;
+  background: transparent;
+  color: rgba(255,255,255,0.84);
+  line-height: 1.45;
+}
+
+.dr-deep-modal-content li::before {
+  display: none;
+}
+
+.dr-deep-modal-cta {
+  margin-top: 18px;
+}
+
+.dr-deep-services .dr-modal-window {
+  width: min(760px, calc(100vw - 32px));
+  max-height: calc(100svh - 32px);
+  overflow: hidden;
+}
+
+.dr-deep-services .dr-modal-content {
+  max-height: calc(100svh - 32px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.dr-deep-modal-content h3,
+.dr-deep-modal-content h4,
+.dr-deep-modal-content ul,
+.dr-deep-modal-content li,
+.dr-deep-entry-points,
+.dr-deep-modal-cta {
+  overflow-wrap: anywhere;
+}
+
+.dr-deep-entry-points {
+  margin: 4px auto 28px;
+  max-width: 520px;
+}
+
+.dr-deep-entry-points h4 {
+  margin-top: 26px;
+}
+
+.dr-deep-entry-points > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dr-deep-entry-points span {
+  min-height: 32px;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.84);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .dr-deep-services {
+    padding: 56px 16px 56px 0;
+  }
+
+  .dr-deep-header {
+    margin-bottom: 24px;
+    padding-left: 0;
+    padding-right: 16px;
+  }
+
+  .dr-deep-header h2 {
+    margin-left: 0;
+    text-align: left;
+    font-size: clamp(26px, 7vw, 34px);
+    line-height: 1.06;
+  }
+
+  .dr-deep-list {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 16px;
+  }
+
+  .dr-deep-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .dr-deep-card {
+    min-height: 0;
+    padding: 22px;
+    border-radius: 20px;
+  }
+
+  .dr-deep-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .dr-deep-card h3 {
+    font-size: 21px;
+    line-height: 1.1;
+  }
+
+  .dr-deep-card p {
+    margin-bottom: 16px;
+    font-size: 13.5px;
+  }
+
+  .dr-deep-services .dr-modal-overlay {
+    padding: 10px;
+    align-items: start;
+  }
+
+  .dr-deep-services .dr-modal-window {
+    width: 100%;
+    max-height: calc(100svh - 20px);
+    border-radius: 22px;
+  }
+
+  .dr-deep-services .dr-modal-close {
+    top: 10px;
+    right: 10px;
+    width: 42px;
+    height: 42px;
+  }
+
+  .dr-deep-services .dr-modal-content {
+    max-height: calc(100svh - 20px);
+    padding: 62px 18px 22px;
+  }
+
+  .dr-deep-modal-content h3 {
+    margin-right: 44px;
+    font-size: clamp(27px, 8vw, 34px);
+    line-height: 1;
+    text-align: left;
+  }
+
+  .dr-deep-modal-content h4 {
+    margin-top: 24px;
+    text-align: left;
+  }
+
+  .dr-deep-modal-content ul {
+    max-width: none;
+    margin-bottom: 22px;
+    padding-left: 18px;
+  }
+
+  .dr-deep-modal-content li {
+    font-size: 14px;
+  }
+
+  .dr-deep-entry-points {
+    max-width: none;
+    margin-bottom: 24px;
+  }
+
+  .dr-deep-entry-points > div {
+    justify-content: flex-start;
+  }
+
+  .dr-deep-entry-points span {
+    max-width: 100%;
+    min-height: 30px;
+    font-size: 11.5px;
+  }
+
+  .dr-deep-modal-cta a {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}

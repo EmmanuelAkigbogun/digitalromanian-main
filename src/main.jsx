@@ -1,0 +1,27 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
+import "./index.scss";
+import App from "./App.jsx";
+
+const storedTheme = window.localStorage.getItem("dr-theme");
+if (storedTheme === "light" || storedTheme === "dark") {
+  document.documentElement.setAttribute("data-theme", storedTheme);
+}
+
+const storedLang = window.localStorage.getItem("lang");
+const initialLang = ["ro", "en", "de"].includes(storedLang) ? storedLang : "ro";
+document.documentElement.lang = initialLang;
+document.documentElement.setAttribute("data-lang", initialLang);
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    <Analytics />
+    <SpeedInsights />
+  </StrictMode>,
+);

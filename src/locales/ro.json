@@ -1,0 +1,762 @@
+{
+  "common": {
+    "close": "Închide",
+    "change_language": "Schimbă limba",
+    "change_language_to": "Schimbă limba în {language}",
+    "benefits_label": "Beneficii",
+    "services_benefits_label": "Servicii și beneficii",
+    "portfolio_preview": "Previzualizare portofoliu",
+    "back_to_top": "Înapoi sus",
+    "share": "Distribuie",
+    "share_whatsapp": "WhatsApp",
+    "share_facebook": "Facebook",
+    "share_linkedin": "LinkedIn",
+    "share_x": "X",
+    "share_copy": "Copiază link",
+    "share_copied": "Copiat"
+  },
+  "popup": {
+    "newsletter_title": "Idei clare pentru website și creștere digitală",
+    "newsletter_desc": "Primește ghiduri scurte, studii de caz și exemple practice pentru afaceri care vor o prezență online mai clară."
+  },
+  "hero": {
+    "heading": {
+      "main": "Website-uri clare",
+      "highlight": "pentru afaceri greu de ignorat."
+    },
+    "description": "Construim website-uri, automatizări și sisteme digitale pentru afaceri care vor să fie înțelese rapid, să inspire încredere și să transforme vizitatorii în acțiuni reale.",
+    "benefits": [
+      "Claritate înainte de design",
+      "Website-uri responsive",
+      "CTA-uri care ghidează"
+    ],
+    "cta_discussion": "Clarifică proiectul",
+    "cta_portfolio": "Vezi proiectele"
+  },
+  "services": {
+    "section_title": "Servicii digitale construite în jurul clarității.",
+    "section_subtitle": "Website-uri, software, branding, automatizări și conținut pentru afaceri care vor să fie ușor de înțeles, ușor de ales și ușor de contactat.",
+    "software": {
+      "title": "Software & MVP-uri",
+      "short": [
+        "Produs minim clar",
+        "Fluxuri și integrări utile",
+        "Scalabil fără haos"
+      ],
+      "subtitle": "Construim MVP-uri, dashboard-uri și platforme web pentru procese care nu mai pot fi rezolvate eficient cu foi, mesaje și muncă manuală.",
+      "points": [
+        "Transformăm ideea într-un MVP testabil, cu funcțiile strict necesare.",
+        "Integrăm plăți, CRM, ERP, notificări, dashboard-uri sau alte sisteme importante.",
+        "Construim arhitectură curată, ușor de întreținut și extins.",
+        "Lucrăm etapizat, cu prioritizare după impactul real în business."
+      ]
+    },
+    "website": {
+      "title": "Website clar & eCommerce",
+      "short": [
+        "Ofertă înțeleasă rapid",
+        "Mobil și desktop pregătite",
+        "Structură orientată spre acțiune"
+      ],
+      "subtitle": "Construim website-uri, landing page-uri și magazine WooCommerce care explică oferta fără confuzie și duc vizitatorul spre contact, comandă sau programare.",
+      "points": [
+        "Clarificăm serviciile, produsele și diferența ta înainte de design.",
+        "Alegem structura potrivită: prezentare, landing page, WooCommerce sau custom.",
+        "Optimizăm pentru mobil, viteză, SEO de bază și experiență de cumpărare.",
+        "Folosim texte, secțiuni și CTA-uri care susțin decizia, nu doar aspectul."
+      ]
+    },
+    "branding": {
+      "title": "UX/UI & identitate vizuală",
+      "short": [
+        "Interfețe ușor de parcurs",
+        "Brand coerent",
+        "Design system în Figma"
+      ],
+      "subtitle": "Dăm afacerii o direcție vizuală coerentă, astfel încât oamenii să înțeleagă rapid cine ești, ce oferi și de ce pot avea încredere.",
+      "points": [
+        "Definim direcția vizuală: logo, culori, fonturi, stil, ton și componente.",
+        "Proiectăm interfețe curate, moderne și ușor de folosit pe mobil și desktop.",
+        "Pregătim design system în Figma pentru implementare mai rapidă.",
+        "Clarificăm flow-ul utilizatorului ca să reducem fricțiunea și să creștem încrederea."
+      ]
+    },
+    "automation": {
+      "title": "Automatizări business & AI",
+      "short": [
+        "Mai puține sarcini repetitive",
+        "CRM, formulare și chatbot",
+        "Date ușor de urmărit"
+      ],
+      "subtitle": "Automatizăm procese repetitive și conectăm website-ul cu instrumentele folosite deja, ca lead-urile, notificările și datele să circule mai clar.",
+      "points": [
+        "Automatizăm lead-uri, formulare, notificări, task-uri și procese interne.",
+        "Conectăm website-ul cu CRM, email, Google Sheets, dashboard-uri sau alte aplicații.",
+        "Construim chatbot-uri utile pentru suport, calificare lead-uri sau întrebări frecvente.",
+        "Reducem pașii manuali și facem datele mai ușor de urmărit și raportat."
+      ]
+    },
+    "social-media": {
+      "title": "Conținut & comunicare digitală",
+      "short": [
+        "Mesaj coerent",
+        "Postări cu direcție",
+        "Raportare simplă"
+      ],
+      "subtitle": "Te ajutăm să comunici clar și consecvent, cu mesaje care susțin website-ul, oferta și poziționarea afacerii.",
+      "points": [
+        "Creăm direcție de conținut adaptată afacerii și publicului tău.",
+        "Scriem texte și pregătim vizualuri coerente cu brandul.",
+        "Organizăm postările astfel încât comunicarea să fie consecventă și ușor de urmărit.",
+        "Urmărim rezultatele și ajustăm mesajele în funcție de ce funcționează."
+      ]
+    }
+  },
+  "roadmap": {
+    "section_label": "Proces digital clar",
+    "section_title": "De la idee la un website care se înțelege repede.",
+    "section_desc": "Procesul începe cu poziționarea și continuă cu structură, conținut, design, lansare și optimizare, ca proiectul să nu devină doar frumos, ci util.",
+    "steps": [
+      "Identitate",
+      "Domeniu",
+      "Logo",
+      "Stil vizual",
+      "Tehnic",
+      "Conținut",
+      "Lansare",
+      "Creștere"
+    ],
+    "cta": "Vezi procesul complet",
+    "modal_steps": [
+      {
+        "title": "Poziționare clară",
+        "description": "Începem prin a clarifica cine ești, ce vinzi, cui te adresezi și de ce ar trebui clientul să te aleagă.",
+        "points": [
+          "Definim poziționarea: profesională, premium, accesibilă, locală sau de nișă.",
+          "Alegem un nume ușor de reținut și potrivit publicului tău.",
+          "Evităm denumirile confuze, greu de pronunțat sau greu de găsit online."
+        ]
+      },
+      {
+        "title": "Domeniu potrivit",
+        "description": "Alegem o adresă web simplă, credibilă și ușor de folosit în Google, reclame, cărți de vizită sau social media.",
+        "points": [
+          "Verificăm variantele disponibile pentru numele ales.",
+          "Alegem extensia potrivită: .ro, .com sau altă variantă relevantă.",
+          "Ne asigurăm că domeniul este scurt, curat și ușor de tastat."
+        ]
+      },
+      {
+        "title": "Logo și identitate",
+        "description": "Creăm o direcție vizuală care arată profesionist și poate fi folosită coerent pe website, social media și materiale de promovare.",
+        "points": [
+          "Stabilim stilul: minimalist, elegant, expresiv sau tehnic.",
+          "Verificăm dacă logo-ul rămâne clar și în dimensiuni mici.",
+          "Pregătim baza pentru o identitate vizuală coerentă."
+        ]
+      },
+      {
+        "title": "Stil vizual",
+        "description": "Alegem culori, contrast și accente care susțin mesajul, diferențiază brandul și fac site-ul ușor de parcurs.",
+        "points": [
+          "Definim culorile principale și accentele importante.",
+          "Verificăm lizibilitatea pe desktop și mobil.",
+          "Păstrăm un aspect consistent pe toate paginile."
+        ]
+      },
+      {
+        "title": "Baza tehnică",
+        "description": "Pregătim infrastructura astfel încât website-ul să fie stabil, securizat, rapid și gata de lansare.",
+        "points": [
+          "Alegem hosting potrivit pentru dimensiunea și traficul proiectului.",
+          "Conectăm domeniul, SSL-ul și setările esențiale.",
+          "Reducem riscul de blocaje tehnice înainte de publicare."
+        ]
+      },
+      {
+        "title": "Pagini care conving",
+        "description": "Construim structura și textele astfel încât vizitatorul să înțeleagă rapid oferta, beneficiile și următorul pas.",
+        "points": [
+          "Stabilim paginile necesare: acasă, servicii, despre, portofoliu, blog, contact și altele.",
+          "Scriem sau ajustăm textele pentru claritate, SEO și conversie.",
+          "Ghidăm utilizatorul spre acțiune: apel, formular, comandă sau programare."
+        ]
+      },
+      {
+        "title": "Lansare controlată",
+        "description": "Publicăm site-ul doar după verificări esențiale, ca să evităm problemele vizibile pentru clienți.",
+        "points": [
+          "Verificăm textele, formularele, linkurile, viteza și afișarea pe mobil.",
+          "Publicăm site-ul și testăm elementele critice pentru conversie.",
+          "Corectăm rapid ultimele detalii apărute după lansare."
+        ]
+      },
+      {
+        "title": "Promovare și creștere",
+        "description": "După lansare, pregătim următorul pas: trafic, vizibilitate online, mentenanță și optimizare website.",
+        "points": [
+          "Stabilim canalele potrivite: Google, social media, SEO sau campanii.",
+          "Definim primii pași pentru promovare, măsurare și îmbunătățire.",
+          "Pregătim baza pentru testare, ajustări și rezultate mai bune."
+        ]
+      }
+    ],
+    "modal_hint": "Glisează sau folosește săgețile pentru următorul pas.",
+    "modal_prev": "Pasul anterior",
+    "modal_next": "Pasul următor",
+    "modal_close": "Închide roadmap-ul",
+    "modal_timeline_label": "Etapele roadmap-ului",
+    "modal_step_label": "Pasul {number}: {title}"
+  },
+  "templates": {
+    "section_title": "Alege din template-uri",
+    "section_subtitle": "Explorează designul, verifică preview-ul și deschide demo-ul live într-un tab separat.",
+    "view_all": "Toate template-urile",
+    "eyebrow": "Template notebook",
+    "item_title": "Template {id}",
+    "preview_live": "Preview live",
+    "preview_aria": "Preview pentru {title}",
+    "preview_image_alt": "Previzualizare website pentru {title}",
+    "open_demo": "Deschide demo",
+    "open_new_tab": "Deschide în tab nou",
+    "pagination_prev": "Anterior",
+    "pagination_next": "Următor",
+    "pagination_label": "Pagina {page} din {total}",
+    "tabs_label": "Taburi template-uri"
+  },
+  "case_studies": {
+    "section_title": "Proiecte web și studii de caz",
+    "view_all": "Vezi toate",
+    "view_more": "Vezi mai multe studii de caz",
+    "view_case": "Vezi {title}",
+    "map_statement": "Fiecare proiect este construit pentru claritate, încredere și un pas următor ușor de făcut.",
+    "not_found": "Studiu de caz inexistent.",
+    "delivered_title": "Ce am livrat",
+    "full_preview": "Previzualizare completă",
+    "visit_site": "Vizitează site-ul"
+  },
+  "blog": {
+    "section_label": "Blog",
+    "section_title": "Ghiduri despre website-uri, SEO și creștere online.",
+    "view_all": "Vezi toate",
+    "read_article": "Citește articolul",
+    "not_found": "Articolul nu a fost găsit."
+  },
+  "consulting": {
+    "hero_title": "Clarifică proiectul digital",
+    "hero_subtitle": "înainte să investești în execuție.",
+    "hero_desc": "Alege intervalul potrivit și trimite detaliile proiectului. Discutăm despre website, WordPress, software, branding, automatizări sau optimizare, apoi stabilim direcția cu cel mai mult sens.",
+    "step1": "01",
+    "step1_title": "{service}",
+    "step1_select": "Selectează serviciul",
+    "step1_locked_note": "Ai ajuns aici dintr-o zonă specifică a site-ului. Pentru a nu pierde timp, am păstrat doar serviciul relevant.",
+    "step1_unlock": "Vreau să aleg alt serviciu",
+    "step1_other_label": "Spune-ne ce serviciu cauți *",
+    "step1_other_placeholder": "Ex: mentenanță, integrare, audit, campanie...",
+    "step1_other_confirm": "Confirmă serviciul și continuă",
+    "step2": "02",
+    "step2_title": "{date}, {time}",
+    "step2_select": "Alege intervalul disponibil",
+    "step2_carry_label": "Serviciu",
+    "step2_locked_note": "Completează și confirmă câmpul pentru Alte servicii ca să treci la intervalele disponibile.",
+    "step2_calendar_label": "Calendar disponibil",
+    "step2_calendar_days": "{count} zile disponibile",
+    "step2_selected_day": "Data selectată: {label}",
+    "step3": "03",
+    "step3_title": "{slot}",
+    "step3_select": "Alege mai întâi un interval",
+    "step3_carry_label": "Programare",
+    "form_name": "Nume complet *",
+    "form_email": "Email *",
+    "form_phone": "Telefon",
+    "form_message": "Mesaj scurt",
+    "form_submit": "Trimite solicitarea",
+    "form_sending": "Se trimite...",
+    "form_error": "Nu am putut trimite programarea. Te rugăm să încerci din nou sau să ne scrii pe email.",
+    "confirmation_sent": "Solicitare trimisă",
+    "confirmation_title": "Mulțumim. Am primit detaliile și revenim cu următorul pas.",
+    "duration_30": "30 min",
+    "category_all": "Toate",
+    "week_days": [
+      "Lu",
+      "Ma",
+      "Mi",
+      "Jo",
+      "Vi",
+      "Sa",
+      "Du"
+    ],
+    "step3_ready": "Finalizează solicitarea",
+    "service_categories": {
+      "website": "Website",
+      "design": "Design",
+      "software": "Software",
+      "automation": "Automatizări",
+      "consulting": "Consultanță",
+      "other": "Alte servicii"
+    },
+    "service_titles": {
+      "website": "Consultanță creare site web",
+      "ecommerce": "Consultanță magazin online WooCommerce",
+      "audit": "Audit și optimizare website",
+      "branding": "Consultanță identitate vizuală & branding",
+      "uiux": "Consultanță UI/UX pentru aplicații web",
+      "software": "Consultanță dezvoltare software personalizat",
+      "automation": "Consultanță automatizări business & integrare API",
+      "strategy": "Consultanță strategie digitală",
+      "maintenance": "Consultanță mentenanță website & optimizare tehnică",
+      "offer": "Întâlnire ofertare proiect digital",
+      "other": "Alte servicii"
+    }
+  },
+  "portfolio": {
+    "hero_title_main": "Proiecte digitale construite",
+    "hero_title_highlight": "pentru claritate și acțiune.",
+    "hero_desc": "De la magazine online și website-uri locale până la proiecte multilingve și campanii optimizate, fiecare proiect urmărește același lucru: mesaj clar, încredere și următor pas evident.",
+    "about_title": "Construim prezențe digitale care explică afacerea.",
+    "about_desc": "Website-uri, identitate vizuală și sisteme digitale pentru afaceri care vor să fie înțelese rapid și luate în serios online.",
+    "about_cta": "Vezi studiile de caz",
+    "about_benefits": [
+      "Studii de caz reale",
+      "Website-uri responsive",
+      "Mobil optimizat"
+    ],
+    "about_featured": {
+      "meta": "eCommerce / Branding / Website",
+      "mobile_preview": "Preview mobil"
+    },
+    "about_stats": {
+      "case_studies": "studii de caz",
+      "templates": "template-uri disponibile"
+    },
+    "templates_title": "Template-uri website",
+    "templates_subtitle": "Explorează modele de website pe care le putem adapta pentru lansări rapide și clare."
+  },
+  "resources": {
+    "hero_title": "Resurse pentru afaceri",
+    "hero_subtitle": "care vor mai multă claritate online.",
+    "hero_desc": "Ghiduri, articole și exemple pentru decizii mai bune despre website-uri, branding, automatizare, SEO și creștere digitală.",
+    "hero_benefits": [
+      "Explicații clare",
+      "Fără jargon inutil",
+      "Aplicabile în afaceri reale"
+    ],
+    "hero_cta_explore": "Citește ghidurile",
+    "hero_cta_ebooks": "Vezi ebook-urile",
+    "ebooks_title": "Ebook-uri gratuite pentru website-uri",
+    "ebooks_desc": "Materiale scurte și practice pentru antreprenori care vor să înțeleagă ce merită construit, optimizat sau evitat.",
+    "ebooks_preview": "Preview",
+    "ebooks_download": "Descarcă",
+    "ebooks_coming_soon": "PDF în pregătire",
+    "ebooks_download_main": "Descarcă ebook-ul",
+    "ebooks_form_title": "Primește ebook-ul",
+    "ebooks_form_desc": "Lasă-ne numele și adresa de email, iar descărcarea va porni imediat.",
+    "ebooks_form_name": "Nume complet *",
+    "ebooks_form_email": "Adresa de email *",
+    "ebooks_form_consent": "Sunt de acord ca Digital Romanian să folosească aceste date pentru a-mi trimite ebook-ul și resurse utile similare.",
+    "ebooks_form_submit": "Trimite și descarcă",
+    "ebooks_form_sending": "Se trimite...",
+    "ebooks_form_error": "Nu am putut pregăti descărcarea. Te rugăm să încerci din nou.",
+    "ebooks_form_success_title": "Descărcarea este pregătită",
+    "ebooks_form_success_desc": "Dacă nu a pornit automat, folosește butonul de mai jos.",
+    "ebooks_form_missing_file": "Am salvat solicitarea. Fișierul ebook-ului trebuie adăugat înainte ca descărcarea să poată porni.",
+    "ebooks": [
+      {
+        "title": "Creare site web pentru afaceri",
+        "category": "Website",
+        "description": "Un ghid simplu despre ce trebuie să conțină un site de prezentare modern și orientat spre conversii.",
+        "preview": "Acest ebook explică structura unui site clar: homepage, servicii, portofoliu, contact, CTA-uri, SEO de bază și elemente de încredere."
+      },
+      {
+        "title": "SEO pentru website-uri de business",
+        "category": "SEO",
+        "description": "Noțiuni de bază pentru afaceri care vor mai multă vizibilitate online în Google.",
+        "preview": "Un material introductiv despre structură, cuvinte-cheie, titluri, meta descrieri, viteză, conținut util și intenție de căutare."
+      },
+      {
+        "title": "Viteză, securitate și mentenanță website",
+        "category": "Performanță",
+        "description": "Ce afectează viteza, siguranța, stabilitatea și mentenanța unui website.",
+        "preview": "Un ghid pentru antreprenori despre hosting, caching, imagini, update-uri, SSL, backup și bune practici de mentenanță."
+      }
+    ],
+    "blog_guides_title": "Ghiduri practice pentru website-uri și marketing digital",
+    "blog_categories": [
+      "Toate",
+      "Website",
+      "SEO",
+      "Design",
+      "Marketing",
+      "Automatizări"
+    ],
+    "blog_no_results": "Nu am găsit articole în această categorie încă.",
+    "blog_sidebar_title": "Categorii",
+    "blog_sidebar_clarity_title": "Nu știi de unde să începi?",
+    "blog_sidebar_clarity_desc": "Deschide roadmap-ul și vezi ce etapă se potrivește proiectului tău: website, branding, conținut, lansare sau optimizare.",
+    "newsletter_title": "Primește idei utile\npentru o prezență digitală mai clară.",
+    "newsletter_desc": "Trimitem rar, dar aplicat: ghiduri, exemple, idei de optimizare și resurse pentru website-uri, design și creștere online.",
+    "newsletter_email": "Email",
+    "newsletter_email_placeholder": "contact@exemplu.ro",
+    "newsletter_consent": "Sunt de acord să primesc materiale informative de la Digital Romanian.",
+    "newsletter_subscribe": "Abonează-te",
+    "newsletter_sending": "Se trimite...",
+    "newsletter_error": "Nu am putut salva abonarea. Încearcă din nou.",
+    "newsletter_sent": "Mulțumim pentru abonare!",
+    "newsletter_sent_desc": "Când pregătim următorul material util, îl vei primi direct pe email."
+  },
+  "service_deep_dive": {
+    "section_title": "Servicii explicate fără jargon",
+    "details_link": "Vezi detalii",
+    "includes_label": "Ce include",
+    "entry_points_label": "Puncte de intrare",
+    "offer_cta": "Cere ofertă personalizată",
+    "items": [
+      {
+        "id": "website",
+        "title": "Website & eCommerce",
+        "short": "Website-uri și magazine online construite pentru claritate, încredere și acțiune.",
+        "deliverables": [
+          "Website de prezentare responsive",
+          "Landing page orientat spre conversii",
+          "Magazin online WooCommerce",
+          "Formulare, tracking și SEO de bază"
+        ],
+        "entry": [
+          "Consultanță creare site web",
+          "Audit și optimizare website",
+          "Consultanță magazin online"
+        ]
+      },
+      {
+        "id": "branding",
+        "title": "UX/UI & Branding",
+        "short": "Identitate vizuală și interfețe care fac oferta mai ușor de înțeles.",
+        "deliverables": [
+          "Direcție vizuală și logo",
+          "Design UI pentru web și aplicații",
+          "Design system în Figma"
+        ],
+        "entry": [
+          "Consultanță branding",
+          "Consultanță UI/UX"
+        ]
+      },
+      {
+        "id": "automation",
+        "title": "Automatizări & AI",
+        "short": "Fluxuri care reduc munca manuală și fac lead-urile mai ușor de urmărit.",
+        "deliverables": [
+          "Automatizări pentru lead-uri și task-uri",
+          "Integrare API, CRM și email",
+          "Chatbot / AI pentru suport și calificare"
+        ],
+        "entry": [
+          "Consultanță automatizări business"
+        ]
+      },
+      {
+        "id": "software",
+        "title": "Software / MVP",
+        "short": "Produse digitale construite etapizat, pentru validare și utilizare reală.",
+        "deliverables": [
+          "MVP funcțional",
+          "Platformă web personalizată",
+          "Integrare sisteme și dashboard-uri"
+        ],
+        "entry": [
+          "Consultanță software",
+          "Întâlnire ofertare"
+        ]
+      }
+    ]
+  },
+  "cookie": {
+    "settings_label": "Setări cookies",
+    "title": "Cookies",
+    "necessary_desc": "Folosim cookie-uri strict necesare pentru funcționarea website-ului. Acestea includ cookie-uri funcționale pentru securitate, preferințe de afișare și salvarea opțiunilor tale privind confidențialitatea.",
+    "analytics_desc": "Cu acordul tău, putem utiliza și tehnologii precum Google Analytics, Google Tag Manager, Google Ads și Meta Pixel pentru analiză, măsurarea performanței și marketing.",
+    "privacy_link": "Vezi politica de confidențialitate",
+    "reject": "Refuz",
+    "accept": "Accept toate"
+  },
+  "contact": {
+    "hero_title": "Spune-ne ce vrei",
+    "hero_subtitle": "să clarificăm digital.",
+    "hero_desc": "Ai nevoie de website, redesign, magazin online, automatizare, branding sau software? Trimite detaliile și stabilim următorul pas.",
+    "call_us": "Sună-ne",
+    "email_us": "Trimite-ne un e-mail",
+    "form_title": "Cere o ofertă",
+    "form_name": "Numele complet *",
+    "form_email": "Adresa de e-mail *",
+    "form_service": "Serviciu *",
+    "form_service_placeholder": "Selectează serviciul",
+    "form_services": [
+      "Website de prezentare",
+      "Magazin online",
+      "Branding & identitate vizuală",
+      "Automatizări business & AI",
+      "Dezvoltare software / MVP",
+      "Social Media Marketing",
+      "Altceva"
+    ],
+    "form_phone": "Număr de telefon (opțional)",
+    "form_message": "Ce vrei să obții? *",
+    "form_submit": "Trimite solicitarea",
+    "form_sending": "Se trimite...",
+    "form_error": "Mesajul nu a putut fi trimis. Încearcă din nou.",
+    "form_sent": "Mulțumim! Solicitarea ta a fost trimisă.",
+    "form_sent_desc": "Am primit detaliile proiectului. Dacă este urgent, ne poți scrie direct pe email.",
+    "faq_title": "Întrebări frecvente",
+    "faq_subtitle": "despre colaborare și servicii.",
+    "faqs": [
+      {
+        "q": "Ce servicii oferă Digital Romanian?",
+        "a": "Construim website-uri, magazine online, UX/UI, branding, automatizări, software custom, consultanță digitală și suport tehnic, cu accent pe claritate și acțiuni măsurabile."
+      },
+      {
+        "q": "Cum pot începe colaborarea cu Digital Romanian?",
+        "a": "Completezi formularul sau programezi o discuție. Începem prin a clarifica obiectivul, publicul, bugetul, termenul și soluția potrivită."
+      },
+      {
+        "q": "Oferiți suport continuu după finalizarea proiectului?",
+        "a": "Da. Putem oferi suport după lansare: update-uri, securitate, performanță, ajustări de conținut și optimizări tehnice."
+      },
+      {
+        "q": "Care este costul serviciilor voastre?",
+        "a": "Costul depinde de complexitate, număr de pagini, funcții, integrări, conținut și suport. După clarificare putem pregăti o ofertă concretă."
+      },
+      {
+        "q": "Ne puteți ajuta cu rebranding sau actualizarea website-ului actual?",
+        "a": "Da. Putem analiza website-ul actual, propune o direcție vizuală nouă și reconstrui structura pentru o experiență mai clară, mai rapidă și mai orientată spre conversii."
+      },
+      {
+        "q": "Cum asigură Digital Romanian calitatea muncii sale?",
+        "a": "Lucrăm pe etape clare, cu feedback, verificări tehnice, testare responsive, verificare formulare și ajustări înainte de lansare."
+      },
+      {
+        "q": "Cum pot fi la curent cu progresul proiectului meu?",
+        "a": "Stabilim puncte clare de comunicare și îți arătăm progresul pe etape, astfel încât să știi constant unde se află proiectul."
+      },
+      {
+        "q": "Cât durează un proiect în mod normal?",
+        "a": "Un site de prezentare simplu poate dura câteva săptămâni. Un magazin online, MVP sau proiect software personalizat poate necesita mai mult, în funcție de complexitate."
+      },
+      {
+        "q": "Aveți articole utile despre marketing digital și SEO?",
+        "a": "Da. Publicăm constant resurse pentru antreprenori și afaceri locale.",
+        "linkLabel": "Citește ghidul de marketing digital",
+        "linkHref": "/resurse/Introducere-in-Marketingul-Digital-Modern"
+      }
+    ]
+  },
+  "services_page": {
+    "hero_title": "Alege serviciul",
+    "hero_subtitle": "care îți clarifică următorul pas.",
+    "hero_desc": "Fie că ai nevoie de website, branding, automatizare sau software, începem cu problema reală și alegem soluția potrivită.",
+    "anchors": [
+      {
+        "href": "#software",
+        "label": "Software"
+      },
+      {
+        "href": "#website",
+        "label": "Website & WordPress"
+      },
+      {
+        "href": "#branding",
+        "label": "Branding & UX/UI"
+      },
+      {
+        "href": "#automation",
+        "label": "Automatizări business"
+      }
+    ]
+  },
+  "plans": {
+    "section_title": "Pachete pentru următorul pas digital",
+    "cta": "Cere ofertă",
+    "items": [
+      {
+        "serviceId": "website",
+        "title": "Website Starter",
+        "desc": "Pentru afaceri care au nevoie de o prezență online clară, credibilă și rapid de lansat.",
+        "features": [
+          "Landing page optimizat pentru conversii",
+          "Până la 5 secțiuni",
+          "1-2 formulare de contact",
+          "Setup Analytics",
+          "2 runde de revizii"
+        ],
+        "highlight": false
+      },
+      {
+        "serviceId": "ecommerce",
+        "title": "WooCommerce Launch",
+        "desc": "Pentru magazine care vor să vândă online cu structură clară, checkout funcțional și încredere.",
+        "features": [
+          "WooCommerce configurat",
+          "10 produse inițiale incluse",
+          "Plăți online integrate",
+          "Setări livrare",
+          "Emailuri tranzacționale"
+        ],
+        "highlight": true
+      },
+      {
+        "serviceId": "software",
+        "title": "MVP Sprint",
+        "desc": "Pentru idei care trebuie validate rapid printr-un produs minim clar și utilizabil.",
+        "features": [
+          "Workshop de clarificare",
+          "Backlog prioritar",
+          "Prototip interactiv",
+          "MVP funcțional"
+        ],
+        "highlight": false
+      }
+    ]
+  },
+  "process": {
+    "section_title": "Cum lucrăm fără haos",
+    "steps": [
+      {
+        "title": "Clarificare",
+        "text": "Înțelegem oferta, publicul, obiectivul și ce trebuie să fie diferit."
+      },
+      {
+        "title": "Structură",
+        "text": "Construim flow-ul, paginile și direcția vizuală în jurul deciziei utilizatorului."
+      },
+      {
+        "title": "Execuție",
+        "text": "Implementăm etapizat, cu verificări pe conținut, mobil, formulare și funcții."
+      },
+      {
+        "title": "Lansare și optimizare",
+        "text": "Publicăm controlat și pregătim următorii pași pentru creștere."
+      }
+    ]
+  },
+  "footer": {
+    "brand_desc": "Website-uri clare, sisteme digitale și automatizări pentru afaceri care vor să fie înțelese rapid și alese mai ușor.",
+    "copyright": "©{year} Digital Romanian. Toate drepturile rezervate.",
+    "useful_links": "Link-uri utile",
+    "privacy_policy": "Politica de confidențialitate",
+    "sitemap": "Sitemap",
+    "company": "Companie",
+    "contact_desc": "Ai un proiect în minte? Scrie-ne și clarificăm ce merită construit.",
+    "anpc_alt": "Platforma ANPC SAL pentru soluționarea alternativă a litigiilor",
+    "sol_alt": "Platforma europeană SOL pentru soluționarea online a litigiilor"
+  },
+  "privacy": {
+    "title": "Politica de confidențialitate",
+    "updated": "Ultima actualizare: 29 aprilie 2026",
+    "sections": [
+      {
+        "title": "1. Cine suntem",
+        "paragraphs": [
+          "Website-ul digitalromanian.com este administrat de Digital Romanian SRL. Pentru întrebări privind prelucrarea datelor personale, ne poți contacta la contact@digitalromanian.com."
+        ]
+      },
+      {
+        "title": "2. Ce date colectăm",
+        "paragraphs": [
+          "Putem colecta date precum nume, adresă de email, număr de telefon, mesajul transmis prin formular, serviciul selectat pentru programare și informații tehnice despre utilizarea website-ului."
+        ]
+      },
+      {
+        "title": "3. Cum folosim datele",
+        "paragraphs": [
+          "Folosim datele pentru a răspunde solicitărilor, pentru a gestiona programările, pentru a trimite materiale informative dacă ai consimțit explicit și pentru a îmbunătăți website-ul."
+        ]
+      },
+      {
+        "title": "4. Temeiul legal",
+        "paragraphs": [
+          "Prelucrarea se poate baza pe consimțământ, executarea unor demersuri precontractuale, interes legitim sau obligații legale, în funcție de situație."
+        ]
+      },
+      {
+        "title": "5. Cookie-uri",
+        "paragraphs": [
+          "Prin utilizarea website-ului, accepți folosirea cookie-urilor strict necesare pentru funcționarea acestuia. Acestea pot include cookie-uri pentru securitate, preferințe de bază, formulare, sesiune și salvarea opțiunii tale privind cookie-urile.",
+          "Cookie-urile și tehnologiile pentru analiză, măsurare, publicitate sau remarketing sunt folosite doar dacă îți exprimi acordul prin bannerul de cookies, acolo unde este necesar."
+        ]
+      },
+      {
+        "title": "6. Tehnologii de analiză și marketing",
+        "paragraphs": [
+          "În funcție de configurarea website-ului, putem folosi următoarele instrumente:"
+        ],
+        "items": [
+          {
+            "label": "Google Analytics",
+            "text": " - pentru statistici privind vizitele, paginile accesate și modul de utilizare a website-ului."
+          },
+          {
+            "label": "Google Tag Manager / Google Tag",
+            "text": " - pentru gestionarea scripturilor de analiză și marketing."
+          },
+          {
+            "label": "Google Ads",
+            "text": " - pentru măsurarea conversiilor și eficienței campaniilor publicitare."
+          },
+          {
+            "label": "Meta Pixel",
+            "text": " - pentru măsurarea interacțiunilor, remarketing și optimizarea campaniilor Meta."
+          }
+        ]
+      },
+      {
+        "title": "7. Cât timp păstrăm datele",
+        "paragraphs": [
+          "Păstrăm datele doar atât timp cât este necesar pentru scopurile pentru care au fost colectate sau conform obligațiilor legale aplicabile."
+        ]
+      },
+      {
+        "title": "8. Cui putem transmite datele",
+        "paragraphs": [
+          "Datele pot fi transmise furnizorilor care ne ajută cu hosting, email, analiză, mentenanță tehnică sau servicii similare, doar în măsura necesară."
+        ]
+      },
+      {
+        "title": "9. Drepturile tale",
+        "paragraphs": [
+          "Ai dreptul de acces, rectificare, ștergere, restricționare, opoziție și portabilitate, precum și dreptul de a retrage consimțământul atunci când prelucrarea se bazează pe consimțământ."
+        ]
+      },
+      {
+        "title": "10. Contact",
+        "paragraphs": [
+          "Pentru solicitări privind datele personale, ne poți scrie la contact@digitalromanian.com."
+        ]
+      }
+    ]
+  },
+  "not_found": {
+    "kicker": "Eroare 404",
+    "title": "Pagina nu a fost",
+    "title_accent": "găsită.",
+    "desc": "Linkul poate fi greșit sau pagina a fost mutată. Te poți întoarce rapid la traseele importante ale site-ului.",
+    "back": "Înapoi",
+    "home": "Acasă",
+    "portfolio": "Vezi portofoliul",
+    "signal": "Căutăm traseul corect",
+    "checks": [
+      "Verifică linkul",
+      "Revino la homepage",
+      "Explorează portofoliul"
+    ]
+  },
+  "navbar": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "portfolio": "Portofoliu",
+    "resources": "Resurse",
+    "contact": "Contact",
+    "book": "Programează-te",
+    "change_theme": "Schimbă tema",
+    "main_navigation": "Navigație principală",
+    "mobile_navigation": "Navigație mobilă"
+  }
+}

@@ -1,0 +1,84 @@
+.dr-contact-faq {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 70px 24px 20px;
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 42px;
+}
+
+.dr-contact-faq-header h2 {
+  margin: 0;
+  font-size: clamp(34px, 4.5vw, 62px);
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.dr-contact-faq-header h2 span {
+  display: block;
+  color: var(--nav-text);
+}
+
+.dr-faq-list {
+  display: grid;
+  gap: 10px;
+}
+
+.dr-faq-item {
+  border-radius: 18px;
+  border: 1px solid var(--nav-glass-border);
+  background: linear-gradient(145deg, rgba(255,255,255,0.075), rgba(255,255,255,0.035));
+  overflow: hidden;
+}
+
+.dr-faq-item button {
+  width: 100%;
+  padding: 18px;
+  border: 0;
+  background: transparent;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+
+  color: var(--page-text);
+  text-align: left;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.dr-faq-item svg {
+  transition: transform 0.22s ease;
+}
+
+.dr-faq-item.is-open svg {
+  transform: rotate(180deg);
+}
+
+.dr-faq-item p {
+  margin: 0;
+  padding: 0 18px 18px;
+  color: var(--nav-text);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.dr-faq-item p a {
+  color: var(--page-text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--nav-glass-border);
+  transition: border-color 0.2s ease;
+}
+
+.dr-faq-item p a:hover {
+  border-color: var(--page-text);
+}
+
+@media (max-width: 900px) {
+  .dr-contact-faq {
+    padding: 56px 16px 20px 0;
+    grid-template-columns: 1fr;
+  }
+}

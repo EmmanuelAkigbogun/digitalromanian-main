@@ -1,0 +1,62 @@
+.dr-process {
+  padding: 80px 0;
+  text-align: center;
+  background: transparent;
+  color: var(--page-text);
+}
+
+.dr-process h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.dr-process-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.dr-process-card {
+  text-align: center;
+}
+
+.dr-process-card h3 {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+.dr-process-card p {
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--nav-text);
+}
+
+@media (max-width: 900px) {
+  .dr-process-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 16px;
+  }
+
+  .dr-process-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+  }
+
+  .dr-process-card svg {
+    flex-shrink: 0;
+  }
+
+  .dr-process-text h3 {
+    margin-top: 0;
+  }
+
+  .dr-process-text p {
+    margin-top: 4px;
+  }
+}
